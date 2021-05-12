@@ -17,24 +17,17 @@ export default function Home() {
         </h1>
         <ul>
           <li>
-            <p>Test building Next JS</p>
+            <h2>Test building Next JS</h2>
             <p>3/12/2021</p>
           </li>
         </ul>
+        <form className={styles.wrapperForm}>
+          <input className={styles.textBox}/>
+          <button>
+            Submit
+          </button>
+        </form>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   )
 }
