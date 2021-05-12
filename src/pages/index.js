@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import ListPost from '../components/ListPost/ListPost'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -15,12 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Post something!
         </h1>
-        <ul>
-          <li>
-            <h2>Test building Next JS</h2>
-            <p>3/12/2021</p>
-          </li>
-        </ul>
+        <ListPost />
         <form className={styles.wrapperForm}>
           <input className={styles.textBox}/>
           <button>

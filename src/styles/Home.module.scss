@@ -26,21 +26,19 @@ $base-color: #0070f3;
     color: $base-color;
     font-size: 3rem;
   }
+}
 
-  ul {
-    width: 100%;
+.wrapperListPost {
+  width: 100%; 
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  h2 {
+    font-weight: 600;
+    font-size: 20px;
   }
-
-  li {
-    list-style: none;
-    h2 {
-      font-weight: 600;
-      font-size: 20px;
-    }
-    p {
-      font-weight: 400;
-      font-size: 16px;
-    }
+  p {
+    font-weight: 400;
+    font-size: 16px;
   }
 }
 
