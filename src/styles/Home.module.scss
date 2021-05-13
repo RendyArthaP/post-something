@@ -75,8 +75,8 @@ $base-color: #0070f3;
   height: 100px;
   max-width: 600px;
   border-radius: 5px;
-  border: none;
-  outline-color: $base-color;
+  border: 1px solid black;
+  outline: none;
   padding-left: 1rem;
   padding-right: 1rem;
 }

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import ListPost from '../components/ListPost/ListPost'
+import PostForm from '../components/PostForm/PostForm'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -16,12 +17,7 @@ export default function Home() {
           Post something!
         </h1>
         <ListPost />
-        <form className={styles.wrapperForm}>
-          <input className={styles.textBox}/>
-          <button>
-            Submit
-          </button>
-        </form>
+        <PostForm />
       </main>
     </div>
   )
