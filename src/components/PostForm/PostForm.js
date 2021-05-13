@@ -1,6 +1,5 @@
 import styles from '../../styles/Home.module.scss';
 
-
 const PostForm = () => {
   return (
     <>

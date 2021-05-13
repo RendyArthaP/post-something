@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Bio from '../components/Bio/Bio'
 import ListPost from '../components/ListPost/ListPost'
 import PostForm from '../components/PostForm/PostForm'
 import styles from '../styles/Home.module.scss'
@@ -13,9 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Post something!
-        </h1>
+        <Bio />
         <ListPost />
         <PostForm />
       </main>

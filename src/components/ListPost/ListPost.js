@@ -14,7 +14,7 @@ const ListPost = () => {
           </div>
           <div className={styles.sharePosting}>
             <HiShare />
-            <span>10</span>
+            <span>Share</span>
           </div>
           <p>3/12/2021</p>
         </div>
@@ -28,7 +28,7 @@ const ListPost = () => {
           </div>
           <div className={styles.sharePosting}>
             <HiShare />
-            <span>10</span>
+            <span>Share</span>
           </div>
           <p>3/12/2021</p>
         </div>

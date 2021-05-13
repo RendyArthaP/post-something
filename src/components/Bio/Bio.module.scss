@@ -1,0 +1,41 @@
+$base-color: #0070f3;
+
+.wrapperBio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.avatarUser {
+  background-color: $base-color;
+  border-radius: 999px;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-size: 2rem;
+  }
+}
+
+.infoUser {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-top: -1rem;
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  h2 {
+    margin-top: -0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  span {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
