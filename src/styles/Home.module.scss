@@ -75,6 +75,32 @@ $base-color: #0070f3;
   flex-direction: row;
   text-align: center;
   align-items: center;
+  margin-top: -15px;
+  p {
+    margin-top: 15px;
+  }
+}
+
+.likePosting {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+  span {
+    margin-top: -1px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.sharePosting {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  span {
+    margin-top: -1px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
 .textBox {

@@ -8,24 +8,30 @@ const ListPost = () => {
       <div className={styles.listPost}>
         <h2>Test building Next JS</h2>
         <div className={styles.description}>
-          <div>
+          <div className={styles.likePosting}>
             <FaHeart />
             <span>20</span>
           </div>
-          <div>
+          <div className={styles.sharePosting}>
             <HiShare />
-            <span>1</span>
+            <span>10</span>
           </div>
           <p>3/12/2021</p>
         </div>
       </div>
       <div className={styles.listPost}>
         <h2>Test building Next JS</h2>
-        <p>3/12/2021</p>
-      </div>
-      <div className={styles.listPost}>
-        <h2>Test building Next JS</h2>
-        <p>3/12/2021</p>
+        <div className={styles.description}>
+          <div className={styles.likePosting}>
+            <FaHeart />
+            <span>20</span>
+          </div>
+          <div className={styles.sharePosting}>
+            <HiShare />
+            <span>10</span>
+          </div>
+          <p>3/12/2021</p>
+        </div>
       </div>
     </div>
   )
