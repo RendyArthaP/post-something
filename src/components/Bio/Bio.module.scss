@@ -3,7 +3,6 @@ $base-color: #0070f3;
 .wrapperBio {
   display: flex;
   flex-direction: row;
-  align-items: center;
   margin-bottom: 1rem;
 }
 
@@ -15,29 +14,16 @@ $base-color: #0070f3;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   span {
     font-size: 2rem;
   }
 }
 
 .infoUser {
-  display: flex;
-  flex-direction: column;
-  margin-left: 1rem;
-  margin-top: -2.5rem;
-  h1 {
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-  h2 {
-    margin-top: -1.6rem;
-    font-size: 1rem;
-    font-weight: 500;
-  }
-  span {
-    font-size: 1rem;
-    font-weight: 400;
-  }
+  border: 1px solid black;
+  
 }
 
 @media only screen and (max-width: 640px) {
@@ -45,7 +31,5 @@ $base-color: #0070f3;
     flex-direction: column;
     text-align: center;
   }
-  .avatarUser {
-    margin-bottom: 1rem;
-  }
+
 }
