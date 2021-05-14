@@ -15,13 +15,13 @@ const Bio = () => {
         </span>
       </div>
       <div className={styles.infoUser}>
-        <h1>
+        <span className={styles.userName}>
           {user.name}
-        </h1>
-        <h2>
+        </span>
+        <span className={styles.userDescription}>
           {user.description}
-        </h2>
-        <span>
+        </span>
+        <span className={styles.userJobs}>
           {user.jobs}
         </span>
       </div>

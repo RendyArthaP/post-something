@@ -14,16 +14,35 @@ $base-color: #0070f3;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   span {
     font-size: 2rem;
   }
 }
 
 .infoUser {
-  border: 1px solid black;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  span {
+    margin-bottom: 5px;
+  }
+
+  .userName {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .userDescription {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+
+  .userJobs {
+    font-weight: 400;
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -31,5 +50,11 @@ $base-color: #0070f3;
     flex-direction: column;
     text-align: center;
   }
-
+  .avatarUser {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .infoUser {
+    margin-left: 0rem;
+  }
 }
