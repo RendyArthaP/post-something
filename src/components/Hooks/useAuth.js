@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import { init, loginButton } from '../../library/auth';
+import { init, loginButton, logoutButton } from '../../library/auth';
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
@@ -12,12 +12,21 @@ export const AuthProvider = ({ children }) => {
   }, [])
 
   function logIn() {
-    loginButton()
+    loginButton((user) => {
+      setUser(user)
+    })
+  }
+
+  function logOut() {
+    logoutButton(() => {
+      setUser(undefined)
+    })
   }
 
   const contextValue = {
     user,
-    logIn
+    logIn,
+    logOut
   }
 
   return (
