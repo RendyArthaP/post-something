@@ -4,6 +4,9 @@ $base-color: #0070f3;
   display: flex;
   flex-direction: row;
   margin-bottom: 1rem;
+  align-self: flex-start;
+  width: 100%;
+  max-width: 600px;
 }
 
 .avatarUser {
